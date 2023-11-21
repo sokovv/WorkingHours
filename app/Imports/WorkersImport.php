@@ -15,7 +15,7 @@ class WorkersImport implements ToModel
     public function model(array $row)
     {
         return new Worker([
-            'name' => $row[0],
+            'name' => $row[1],
         ]);
     }
 }
